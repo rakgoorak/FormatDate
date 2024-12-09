@@ -8,3 +8,9 @@
         console.log('data2:', data2.format("YYYY-MM-DD HH:mm:ss"))
         console.log('data1:', data1.format("YYYY-MM-DD HH:mm:ss"))
     }, [])
+
+
+set Path PowerShell unlock command
+Get-ExecutionPolicy
+Set-ExecutionPolicy -Scope CurrentUser RemoteSigned
+Set-ExecutionPolicy -Scope CurrentUser Restricted
